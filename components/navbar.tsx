@@ -1,15 +1,12 @@
 import Link from "next/link";
 
-import { capitalise } from "../utils";
-
-const PAGES = ["home", "portfolio", "resume", "about-me"];
-
 export default function Navbar() {
   return (
     <nav>
-      {PAGES.map((page) => {
-        return <Link href={page}>{capitalise(page.replace("-", " "))}</Link>;
-      })}
+      <Link href={"/"}>Home</Link>
+      <Link href={"/portfolio"}>Portfolio</Link>
+      <Link href={"/resume"}>Resume</Link>
+      <Link href={"/about-me"}>About me</Link>
     </nav>
   );
 }
