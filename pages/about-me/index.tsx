@@ -1,37 +1,49 @@
 import Image from "next/image";
+import Link from "next/link";
+
+import styles from "./about-me.module.css";
 
 export default function AboutMe() {
   return (
-    <div>
-      <section>
+    <div className={styles.container}>
+      <section className={styles.contactSection}>
         <Image
           priority
+          className={styles.emoji}
           src="/heeyoung-mation.webp"
-          height={80}
-          width={80}
+          height={160}
+          width={160}
           alt="Heeyoung"
         />
-        <Image
-          priority
-          src="/linkedin-icon.svg"
-          height={32}
-          width={32}
-          alt="LinkedIn"
-        />
-        <Image
-          priority
-          src="/mail-icon.svg"
-          height={32}
-          width={32}
-          alt="Email me"
-        />
-        <button>My resume</button>
+        <div className={styles.inner}>
+          <Link href={"https://www.linkedin.com/in/heeyoungsohn/"}>
+            <Image
+              priority
+              className={styles.icon}
+              src="/linkedin-icon.svg"
+              height={20}
+              width={20}
+              alt="LinkedIn"
+            />
+          </Link>
+
+          <Link href="mailto:heeyoungsohn@gmail.com">
+            <Image
+              priority
+              className={styles.mailIcon}
+              src="/mail-icon.svg"
+              height={20}
+              width={20}
+              alt="Email me"
+            />
+          </Link>
+        </div>
       </section>
 
-      <section>
+      <section className={styles.aboutMeSection}>
         Hi! I'm Heeyoung and I've spent the last 10 years listening to people,
         learning how to amplify voices and figuring out how to tackle some of
-        the world's toughest international development problems.Though I might
+        the world's toughest international development problems. Though I might
         be new at calling myself a "UX designer", design thinking has always
         been at the core of my work in international health and public policy
         where I helped to implement solutions with real world implications. I

@@ -1,0 +1,23 @@
+.navbar {
+  background-color: coral;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+  margin-right: 20px;
+  min-height: 680px;
+}
+
+.navbar a {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  padding: 12px 8px;
+  font-size: 18px;
+  color: #333;
+  transition: .4s color ease-in-out;
+}
+
+.navbar a:hover {
+  color: #fff;
+}

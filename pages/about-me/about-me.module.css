@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactSection .inner {
+  display: flex;
+  align-items: center;
+}
+
+.emoji {
+  margin-right: 16px;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.mailIcon {
+  /* Icon alignment is wrong so I needed to manually adjust */
+  padding-top: 6px;
+}
+
+.aboutMeSection {
+  margin-top: 16px;
+}
+
+.resumeButton {
+  margin-left: 4px;
+}
