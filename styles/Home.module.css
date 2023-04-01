@@ -1,0 +1,17 @@
+.generalDescription {
+  margin-top: 14px;
+}
+
+.portfolioDescription {
+  margin-top: 14px;
+}
+
+.porfolioContainer h2 {
+  margin: 48px 0 8px;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 8px;
+}

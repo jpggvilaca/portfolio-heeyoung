@@ -32,6 +32,10 @@
   margin-top: 16px;
 }
 
+.aboutMeSection p + p {
+  margin-top: 16px;
+}
+
 .resumeButton {
   margin-left: 4px;
 }

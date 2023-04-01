@@ -1,7 +1,5 @@
 .layout {
-  /* max-width:  /1368px; */
-  max-width: 900px;
-  margin: 40px auto 0;
+  background-color: #fff;
   display: grid;
-  grid-template-columns: 120px auto;
+  grid-template-columns: 140px auto;
 }

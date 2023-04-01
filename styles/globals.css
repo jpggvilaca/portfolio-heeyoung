@@ -7,7 +7,9 @@ body {
 }
 
 main {
-  margin-top: 16px;
+  padding: 32px 16px;
+  height: 100vh;
+  overflow-y: scroll;
 }
 
 a {
@@ -29,6 +31,10 @@ h2,
 p,
 ul {
   margin: 0;
+}
+
+p {
+  line-height: 24px;
 }
 
 ul {
