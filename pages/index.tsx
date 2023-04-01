@@ -1,6 +1,6 @@
 import Project from "../components/project.index";
 
-import styles from "../styles/home.module.css";
+import styles from "./home.module.css";
 
 export default function Home() {
   return (
